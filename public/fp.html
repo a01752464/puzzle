@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meteoro</title>
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+  <script src="../src/script.js" defer></script>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' * data: blob:; img-src 'self' data:; script-src 'self' https://unpkg.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://prod.spline.design https://www.gstatic.com *; frame-src 'self' https://my.spline.design *;">
+  <style>
+    #timer {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      font-size: 20px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0);
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+    <h1 id="instruccion">Encuentra el código y el tesoro</h1>
+    <div class="input-container">
+      <input id="codeInput" type="text" placeholder="Ingresa Código" class="input input-bordered input-info w-full max-w-xs" />
+    </div>
+    <iframe src='https://my.spline.design/untitled-acfa9329f6967f78c080a29296cfa47c/' frameborder='0' width='100%' height='700px'></iframe>
+    
+    <div id="timer">Tiempo: 0s</div>
+  
+</body>
+</html>
+
+<!-- codeInput.addEventListener('input', () => {
+            if (codeInput.value === 'dnske') {
+                const endTime = new Date().getTime();
+                const timeTaken = ((endTime - startTime) / 1000).toFixed(1); // tiempo en segundos con 1 decimal
+                clearInterval(timerInterval); // Detener el temporizador
+                alert(`Correcto! Tomaste ${timeTaken} segundos en encontrar el código.`); -->
