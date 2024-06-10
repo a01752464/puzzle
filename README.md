@@ -54,5 +54,18 @@ Este proyecto es una aplicación web de un Escape Room Virtual, diseñada para g
    npm install
    
 3. **Configurar Base de dato**:
-   Crear la base de datos y la tabla usando el script escape_room.sql.
+   Crear la base de datos y la tabla usando el script "clientes-2.sql".
    Configurar las variables de entorno para el usuario y la contraseña de MySQL.
+   
+4. **Configurar Servidor**:
+   Cargar el api  de "api.js" en localhost para un puerto especifico
+   Configurar las variables de entorno para el usuario y la contraseña de MySQL.
+   
+5. **Prende el live preview de inde.html**:
+   Aqui es donde comienza la aventura
+   Encuentra el codigo que esconde el tesoro
+## P.D.
+Mucha Suerte
+
+   
+   
