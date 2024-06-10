@@ -123,8 +123,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "¿Qué es esto?",
             "Hay una nota",
             "La forma de encontrar lo deseado",
-            "Es acercando el espacio",
-            "y alejando el berilo"
+            "Es entender ...",
+            "El berilo no es lo unico que brilla"
         ];
         let currentNarration = 0;
 
